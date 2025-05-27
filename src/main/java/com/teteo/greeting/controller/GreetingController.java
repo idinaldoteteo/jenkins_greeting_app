@@ -11,7 +11,7 @@ public class GreetingController {
 
     @GetMapping
     public ResponseEntity<String> greeting() {
-        return ResponseEntity.ok("Hello World. This application is UP.");
+        return ResponseEntity.ok("Hello World. This application is UP with Jenkins.");
     }
 
 }
