@@ -15,7 +15,7 @@ public class GreetingController {
     }
 
     @GetMapping("/jenkins")
-    public ResponseEntity<String> greetingJenkins() {
+    public ResponseEntity<String> jenkins() {
         return ResponseEntity.ok("Hello World. I am automated with Jenkins.");
     }
 
