@@ -14,4 +14,9 @@ public class GreetingController {
         return ResponseEntity.ok("Hello World. This application is UP with Jenkins.");
     }
 
+    @GetMapping("/jenkins")
+    public ResponseEntity<String> greetingJenkins() {
+        return ResponseEntity.ok("Hello World. I am automated with Jenkins.");
+    }
+
 }
